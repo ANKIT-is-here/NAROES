@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url(bgimage.png);
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo h1 {
+    font-family: 'Montez', cursive;
+    font-size: 2.5rem;
+    color: #FFA463;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 40px;
+}
+
+nav ul li {
+    margin-left: 40px;
+}
+
+nav ul li a {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFD89E;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
+}
+
+.content {
+    max-width: 500px;
+}
+
+.content h1 {
+    font-family: 'Montserrat', cursive;
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #FFD89E;
+    margin-bottom: 50px;
+}
+
+.content p {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
+
+.cta-button {
+    font-family: 'Montez', cursive;
+    background-color: #C73B0A;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.image-container {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.svg-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1c093a;
+}
+
+.svg-section svg {
+    margin: 0 10px;
+    fill: #FFD89E; /* Optional: Add a color for your SVGs */
+}
